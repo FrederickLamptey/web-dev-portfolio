@@ -1,0 +1,148 @@
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1;
+  font-size: 1.5rem;
+}
+
+ul {
+  list-style: none;
+}
+
+.heading-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  z-index: 2;
+  top: 85%;
+  background: transparent;
+}
+
+.heading {
+  font-size: 17rem;
+  margin-left: 5rem;
+  color: #e9ecef;
+}
+
+/* .heading-container {
+  position: absolute;
+  top: 1; 
+  left: 50%;
+  transform: translateX(-40%);
+  z-index: 2; 
+  background: transparent;
+  padding: 1rem;
+} */
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+}
+
+/* reusable */
+.container {
+  max-width: 140rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+.section {
+  margin-top: 8rem;
+}
+
+/* non-reusable */
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 1.5rem;
+}
+
+.logo {
+  font-size: 3.5rem;
+  font-weight: 600;
+}
+
+.my-image {
+  height: 60rem;
+  width: 45rem;
+  border-radius: 200px 200px 200px 200px;
+}
+
+.welcome-container {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  gap: 5rem;
+  position: relative;
+  z-index: 1;
+}
+
+.intro-block {
+  line-height: 4.9rem;
+}
+
+.welcome-intro,
+.welcome-name {
+  font-size: 4rem;
+}
+
+.welcome-name {
+  font-weight: bold;
+}
+
+.available {
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+
+.profile-summary {
+  width: 30rem;
+  line-height: 1.5;
+}
+
+.profile-summary-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10rem;
+  /* justify-content: space-around; */
+}
+
+.welcome-intro-container {
+    display: flex;
+    flex-direction: column;
+    gap: 25rem;
+}
+
+.profile-summary-para {
+  font-size: 1.7rem;
+  color: #555;
+}
+
+.in-touch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1864ab;
+  height: 15rem;
+  width: 15rem;
+  border-radius: 50%;
+}
+
+.in-touch-para {
+  color: white;
+  font-weight: 500;
+}
