@@ -81,7 +81,7 @@ ul {
 /* non-reusable */
 .contact {
   margin-top: 0;
-   border-radius: 0.5rem;
+  border-radius: 0.5rem;
 }
 
 .nav {
@@ -142,9 +142,9 @@ ul {
 }
 
 .welcome-intro-container {
-    display: flex;
-    flex-direction: column;
-    gap: 25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 25rem;
 }
 
 .profile-summary-para {
@@ -181,12 +181,13 @@ ul {
   width: 60rem;
 }
 
-.section-2 {
+.section-2,
+.section-3 {
   margin-top: 18rem;
 }
 
 .projects-screenshots-container {
-  display:grid;
+  display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 5rem;
 }
@@ -207,7 +208,54 @@ ul {
   color: #555;
 }
 
-
 .arrow {
-padding-left: 1rem;
+  padding-left: 1rem;
+}
+
+/* about me */
+.about-me-container {
+  height: 50rem;
+  background-color: #1864ab;
+  border-radius: 1.5rem;
+}
+
+.about-me-content-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15rem;
+  transform: translateY(30%);
+  margin-right: 18rem;
+}
+
+.me-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  width: 50rem;
+}
+
+.about-me-para,
+.about-me-heading {
+  color: white;
+}
+
+.about-me-para {
+  font-size: 1.7rem;
+  line-height: 1.4;
+}
+
+.about-me-heading-block {
+  width: 10rem;
+}
+
+.about-me-heading {
+  font-size: 10rem;
+}
+
+.just-A,
+.just-B {
+  color: #212529;
 }
