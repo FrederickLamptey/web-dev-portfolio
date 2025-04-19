@@ -19,6 +19,23 @@ ul {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+}
+
+footer {
+  background-color: #f1f3f5;
+  margin-top: 12rem;
+  height: 55rem;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.1);
+  margin-top: 2rem;
+}
+
 .heading-container {
   display: flex;
   align-items: center;
@@ -34,16 +51,6 @@ ul {
   margin-left: 5rem;
   color: #e9ecef;
 }
-
-/* .heading-container {
-  position: absolute;
-  top: 1; 
-  left: 50%;
-  transform: translateX(-40%);
-  z-index: 2; 
-  background: transparent;
-  padding: 1rem;
-} */
 
 .nav-list {
   display: flex;
@@ -182,7 +189,8 @@ ul {
 }
 
 .section-2,
-.section-3, .section-4 {
+.section-3,
+.section-4 {
   margin-top: 18rem;
 }
 
@@ -262,9 +270,9 @@ ul {
 
 /* why work with me */
 .work-with-me-main-heading {
-text-align: center;
-font-size: 5rem;
-margin-bottom: 5rem;
+  text-align: center;
+  font-size: 5rem;
+  margin-bottom: 5rem;
 }
 
 .work-with-me-img {
@@ -295,4 +303,44 @@ margin-bottom: 5rem;
 .why-me-content-para {
   font-size: 1.7rem;
   line-height: 1.4;
+}
+
+/* footer */
+.footer-main-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10rem;
+}
+
+.footer-links {
+  display: flex;
+  gap: 5rem;
+}
+
+.links-list {
+  margin-top: 2rem;
+  line-height: 1.8;
+}
+
+.nav-page {
+  color: #343a40;
+  font-size: 1.7rem;
+}
+
+.footer-links-header {
+  font-size: 2rem;
+}
+
+.logo-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1864ab;
+  width: 40rem;
+  height: 35rem;
+}
+
+.footer-logo {
+  font-size: 12rem;
+  color: white;
 }
