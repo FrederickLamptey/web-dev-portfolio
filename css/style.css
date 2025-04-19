@@ -182,7 +182,7 @@ ul {
 }
 
 .section-2,
-.section-3 {
+.section-3, .section-4 {
   margin-top: 18rem;
 }
 
@@ -258,4 +258,41 @@ ul {
 .just-A,
 .just-B {
   color: #212529;
+}
+
+/* why work with me */
+.work-with-me-main-heading {
+text-align: center;
+font-size: 5rem;
+margin-bottom: 5rem;
+}
+
+.work-with-me-img {
+  width: 70rem;
+  height: 45rem;
+}
+
+.why-me-content-container {
+  width: 50rem;
+}
+
+.work-with-me-main-block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.why-me-content-block {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.why-me-content-heading {
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+}
+
+.why-me-content-para {
+  font-size: 1.7rem;
+  line-height: 1.4;
 }
