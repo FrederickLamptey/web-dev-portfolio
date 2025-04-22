@@ -21,6 +21,7 @@ ul {
 
 a {
   text-decoration: none;
+  color: black;
 }
 
 footer {
@@ -68,6 +69,17 @@ hr {
 
 .section-1 {
   margin-top: 8rem;
+}
+
+.section {
+  opacity: 1;
+  transform: translateY(0);
+  transition: all 0.6s ease-out;
+}
+
+.section--hidden {
+  opacity: 0;
+  transform: translateY(8rem);
 }
 
 .button-link {
