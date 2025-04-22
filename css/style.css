@@ -344,3 +344,9 @@ hr {
   font-size: 12rem;
   color: white;
 }
+
+.nav-page {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
