@@ -362,3 +362,83 @@ hr {
   align-items: center;
   gap: 0.5rem;
 }
+
+/* MEDIA QUERY */
+
+/* Below 1344px (Smaller desktops) */
+@media (max-width: 84em) {
+  .heading {
+    font-size: 16rem;
+    margin-left: 3rem;
+  }
+
+  .why-me-content-heading {
+    font-size: 2rem;
+  }
+
+  .why-me-content-para,
+  .profile-summary-para {
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+}
+
+/* Below 1200px (landscape tablets) */
+
+@media (max-width: 75em) {
+  .heading {
+    font-size: 14rem;
+    margin-left: 3rem;
+  }
+
+  .why-me-content-para,
+  .profile-summary-para {
+    font-size: 1.4rem;
+    line-height: 1.6;
+  }
+
+  .project-description {
+    line-height: 1.5;
+    font-size: 1.4rem;
+  }
+
+  .project-screenshot {
+    height: 30rem;
+    width: 55rem;
+  }
+
+  .work-with-me-img {
+    width: 60rem;
+    height: 45rem;
+  }
+
+  .about-me-para {
+    line-height: 1.5;
+  }
+
+  .about-me-content-container {
+    gap: 10rem;
+    transform: translateY(20%);
+  }
+
+  .logo-block {
+    width: 35rem;
+    height: 30rem;
+}
+
+.why-me-content-heading {
+  margin-bottom: 1.1rem;
+}
+
+.welcome-intro, .welcome-name {
+    font-size: 3rem;
+}
+
+.available-for {
+font-size: 1.4rem;
+}
+
+.footer-logo {
+    font-size: 10rem;
+}
+}
