@@ -571,3 +571,162 @@ hr {
     height: 50rem;
   }
 }
+
+
+/* Below 704px (Smaller tablets)  */
+
+@media (max-width: 44em) {
+  .my-image {
+    height: 28rem;
+    width: 23rem;
+}
+
+.profile-summary-para {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.welcome-intro-container {
+ width: 100rem;
+ gap: 6rem;
+}
+
+.profile-summary-container {
+    width: 23rem;
+}
+
+.profile-summary-para {
+  display: block;
+  width: 18rem;
+}
+
+.profile-summary-para {
+    font-size: 1rem;
+    /* line-height: 1.6; */
+}
+
+.profile-summary {
+    width: 18rem;
+    line-height: 1.5;
+}
+
+.heading {
+    font-size: 8rem;
+    /* margin-left: 0; */
+}
+
+ .heading-container {
+    top: 38%;
+  }
+
+  .in-touch {
+   display: none;
+}
+
+.in-touch-para, .available-for {
+    font-size: 1rem;
+}
+
+.welcome-name {
+  display: block;
+  width: 20rem;
+}
+
+
+.welcome-intro, .welcome-name {
+    font-size: 1.8rem;
+}
+
+.projects-heading {
+    font-size: 5.5rem;
+}
+
+.project-screenshot {
+    height: 18rem;
+    width: 30rem;
+}
+
+.project-name {
+    font-size: 1.8rem;
+}
+
+.project-description {
+    font-size: 1.2rem;
+    line-height: 1.4;
+}
+
+.button-link {
+    padding: 1.5rem 2.5rem;
+    margin-top: 1.5rem;
+    font-size: 0.9rem;
+}
+
+.about-me-para {
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+
+.about-me-content-container {
+  display: flex;
+  flex-direction: column;
+    transform: translateY(20%);
+    gap: 1.5rem;
+    /* margin-left: 10rem; */
+}
+
+.about-me-container {
+    height: 45rem;
+    width: 67rem;
+margin-left: -1.8rem;
+}
+
+.about-me-heading {
+    font-size: 5rem;
+  }
+
+  .me-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    width: 50rem;
+    padding-left: 15rem;
+}
+
+.work-with-me-main-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.work-with-me-img {
+    width: 50rem;
+    height: 33rem;
+}
+
+.logo-block {
+    width: 25rem;
+    height: 20rem;
+}
+
+.footer-links-header {
+    font-size: 1.8rem;
+}
+
+.footer-logo {
+    font-size: 8rem;
+}
+
+.nav-page {
+    color: #343a40;
+    font-size: 1.5rem;
+}
+
+  footer {
+    height: 48rem;
+  }
+
+}
