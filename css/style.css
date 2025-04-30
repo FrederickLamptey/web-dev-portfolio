@@ -955,6 +955,10 @@ footer {
     width: 40rem;
 }
 
+.heading-container {
+    top: 86%;
+  }
+
 .heading {
     font-size: 5rem;
 }
