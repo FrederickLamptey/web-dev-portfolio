@@ -85,11 +85,15 @@ nav li:first-child {
   color: #e9ecef;
 }
 
-.nav-list {
+.nav-list, .nav-list-big {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 5rem;
+}
+
+.nav-list-big {
+  gap: 1rem;
 }
 
 .sidebar {
@@ -632,6 +636,7 @@ nav li:first-child {
 /* Below 704px (Smaller tablets)  */
 
 @media (max-width: 44em) {
+
   .my-image {
     height: 28rem;
     width: 23rem;
@@ -714,7 +719,7 @@ nav li:first-child {
 
   .button-link {
     padding: 1.5rem 2.5rem;
-    margin-top: 1.5rem;
+    margin-top: 1rem;
     font-size: 0.9rem;
   }
 
@@ -937,4 +942,80 @@ nav li:first-child {
 footer {
     height: 35rem;
 }
+}
+
+/* iphone 16 pro max or less */
+@media (max-width: 27.5em) {
+
+  .section-2, .section-3, .section-4 {
+    margin-top: 10rem;
+}
+
+  .welcome-intro-container, .why-me-content-heading, .welcome-container, .why-me-content-container  {
+    width: 40rem;
+}
+
+.heading {
+    font-size: 5rem;
+}
+
+.my-image {
+    height: 50rem;
+    width: 38rem;
+    border-radius: 0;
+}
+
+.profile-summary-container, .profile-summary-para {
+    width: 40rem;
+}
+
+.about-me-container {
+    height: 35rem;
+    width: 40rem;
+    /* margin-left: 1rem; */
+}
+
+.projects-heading, .about-me-heading, .work-with-me-main-heading {
+    font-size: 3rem;
+}
+
+.about-me-content-container {
+    transform: translateY(12%);
+}
+
+.work-with-me-main-heading {
+  margin-bottom: 3rem;
+}
+
+.work-with-me-img {
+    width: 40rem;
+    height: 30rem;
+}
+
+.why-me-content-block {
+  width: 40rem;
+}
+
+.why-me-content-para {
+  width: 40rem;
+}
+
+.logo-block {
+    width: 10rem;
+    height: 10rem;
+}
+
+.footer-logo {
+    font-size: 3rem;
+}
+
+footer {
+    height: 30rem;
+}
+
+/* .button-link {
+    padding: 1.5rem 2.5rem;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+} */
 }
