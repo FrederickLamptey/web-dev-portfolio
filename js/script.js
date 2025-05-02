@@ -1,14 +1,19 @@
 'use strict';
 
 //Page scrolling effect
-document.querySelector('.nav-list').addEventListener('click', function (e) {
-  e.preventDefault();
-
-  if (e.target.classList.contains('nav-list-link')) {
-    const id = e.target.getAttribute('href');
-    document.querySelector(id).scrollIntoView({ behavior: 'smooth' });
-  }
+document.querySelectorAll('.nav-list').forEach((nav) => {
+  nav.addEventListener('click', function (e) {
+    if (e.target.classList.contains('nav-list-link')) {
+      e.preventDefault();
+      const id = e.target.getAttribute('href');
+      const section = document.querySelector(id);
+      if (section) {
+        section.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  });
 });
+
 
 //Reveal sections
 const allSections = document.querySelectorAll('.section');
