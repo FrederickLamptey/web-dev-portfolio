@@ -24,6 +24,15 @@ a {
   color: black;
 }
 
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: white;
+  height: 8rem;
+
+}
+
 footer {
   background-color: #f1f3f5;
   margin-top: 12rem;
