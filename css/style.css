@@ -858,11 +858,11 @@ nav li:first-child {
   }
 
   .heading {
-    font-size: 6rem;
+   display: none;
   }
 
   .heading-container {
-    top: 100%;
+    display: none;
   }
 
   .intro-block {
