@@ -84,7 +84,7 @@ nav li:first-child {
   justify-content: center;
   position: absolute;
   z-index: 2;
-  top: 70%;
+  transform: translateY(-50%);
   background: transparent;
 }
 
@@ -461,9 +461,10 @@ nav li:first-child {
     margin-left: 3rem;
   }
 
-  .heading-container {
-    top: 53%;
-  }
+  /* .heading-container {
+    transform: translateY(-50%);
+
+  } */
 
   .profile-summary-container {
     gap: 14rem;
@@ -587,9 +588,9 @@ nav li:first-child {
     margin-bottom: 0rem;
   }
 
-  .heading-container {
+  /* .heading-container {
     top: 37%;
-  }
+  } */
 
   .project-screenshot {
     height: 20rem;
@@ -685,9 +686,9 @@ nav li:first-child {
     /* margin-left: 0; */
   }
 
-  .heading-container {
+  /* .heading-container {
     top: 38%;
-  }
+  } */
 
   .in-touch {
     display: none;
@@ -968,13 +969,13 @@ footer {
     width: 40rem;
 }
 
-.heading-container {
+/* .heading-container {
     top: 128%;
-  }
+  } */
 
-.heading {
+/* .heading {
     font-size: 5rem;
-}
+} */
 
 .my-image {
     height: 57rem;
