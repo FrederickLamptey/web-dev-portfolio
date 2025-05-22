@@ -61,6 +61,10 @@ nav li:first-child {
   margin-right: auto;
 }
 
+section {
+  scroll-margin-top: 8rem;
+}
+
 
 /* .menu-toggle {
   display: none;

@@ -8,7 +8,7 @@ document.querySelector('.nav-list').addEventListener('click', function (e) {
     const id = e.target.getAttribute('href');
     const section = document.querySelector(id);
   if (section) {
-    section.scrollIntoView({ behavior: 'smooth' });
+    section.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
   }
 });
@@ -21,7 +21,7 @@ document.querySelector('.nav-list-big').addEventListener('click', function (e) {
     const id2 = e.target.getAttribute('href');
     const section2 = document.querySelector(id2);
     if (section2) {
-      section2.scrollIntoView({ behavior: 'smooth' });
+      section2.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
   }
 });
