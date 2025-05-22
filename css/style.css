@@ -834,7 +834,11 @@ nav li:first-child {
     width: 100%;
   }
 
-.section-2, .section-3, .section-4 {
+  .section-2 {
+    margin-top: 12rem;
+  }
+
+.section-3, .section-4 {
     margin-top: 13rem;
 }
 
